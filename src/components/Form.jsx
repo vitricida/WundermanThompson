@@ -58,6 +58,14 @@ function Form() {
   }
   async function submitForm(e) {
     e.preventDefault();
+    setFirstNameIsValid(true);
+    setFirstNameIsValid(true);
+    setLastNameIsValid(true);
+    setEmailIsValid(true);
+    setSelectedDepartamentoIsValid(true);
+    setSelectedLocalidadIsValid(true);
+    setCiIsValid(true);
+    setFormAcceptanceIsValid(true);
     if (firstName.length < 2) {
       setFirstNameIsValid(false);
     }
