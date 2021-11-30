@@ -2,12 +2,12 @@
   "nav": {
     "eng": {
       "landing": "Landing Page",
-      "keepConnected": "Stay Connected",
+      "keepConnected": "STAY CONNECTED",
       "language": "Language"
     },
     "es": {
       "landing": "Página de inicio",
-      "keepConnected": "Seguí Conectado",
+      "keepConnected": "SEGUÍ CONECTADO",
       "language": "Idioma"
     }
   },
@@ -49,7 +49,7 @@
       "emailInvalidity": "e-Mail is invalid.",
       "departmentInvalidity": "Select a Department.",
       "localityInvalidity": "Select a Locality.",
-      "ciInvalidity": "C.I. is invalid.",
+      "ciInvalidity": "C.I. is invalid (8 numbers, without '.' or '-').",
       "acceptanteInvalidity": "Please agree on our terms and conditions."
     },
     "es": {

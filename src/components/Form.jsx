@@ -128,6 +128,7 @@ function Form() {
                     setLastName(e.target.value);
                   }}
                   onFocus={() => setLastNameIsValid(true)}
+                  defaultValue={lastName}
                 />
               )}
               {!lastNameIsValid && (
@@ -340,16 +341,21 @@ function Form() {
                   id="acceptance"
                   onClick={handleClick}
                 ></input>
-                <label htmlFor="acceptance" className="pl-1 muted">
+                <label
+                  htmlFor="acceptance"
+                  className={
+                    `pl-1 muted ` + (!formAcceptanceIsValid ? `invalid` : ``)
+                  }
+                >
                   {" "}
                   {Texts.form[language].acceptanceText}{" "}
                 </label>
               </div>
-              {!formAcceptanceIsValid && (
+              {/* {!formAcceptanceIsValid && (
                 <p className="invalid">
                   {Texts.form[language].acceptanteInvalidity}
                 </p>
-              )}
+              )} */}
             </div>
           </div>
         </div>
