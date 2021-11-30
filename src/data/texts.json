@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "eng": {
+      "landing": "Landing Page",
+      "keepConnected": "Keep Connected",
+      "language": "Language"
+    },
+    "es": {
+      "landing": "Página de inicio",
+      "keepConnected": "Seguí Conectado",
+      "language": "Idioma"
+    }
+  },
+  "topBanner": {
+    "eng": {
+      "product": "Product",
+      "two": "TWO",
+      "buy": "BUY",
+      "month": "month"
+    },
+    "es": {
+      "product": "Producto",
+      "two": "DOS",
+      "buy": "COMPRAR",
+      "month": "mes"
+    }
+  },
+  "latestsArticles": {
+    "eng": {
+      "title": "Latest Articles"
+    },
+    "es": {
+      "title": "Últimos Articulos"
+    }
+  },
+  "form": {
+    "eng": {
+      "title": "Form",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "e-Mail",
+      "department": "Department",
+      "locality": "Locality",
+      "ci": "C.I.",
+      "acceptanceText": "I agree on terms and conditions.",
+      "send": "SEND",
+      "firstNameInvalidity": "First Name should be at least 2 characters.",
+      "lastNameInvalidity": "Last Name should be at least 2 characters.",
+      "emailInvalidity": "e-Mail is invalid.",
+      "departmentInvalidity": "Select a Department.",
+      "localityInvalidity": "Select a Locality.",
+      "ciInvalidity": "C.I. is invalid.",
+      "acceptanteInvalidity": "Please agree on our terms and conditions."
+    },
+    "es": {
+      "title": "Formulario",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "e-Mail",
+      "department": "Departamento",
+      "locality": "Localidad",
+      "ci": "C.I.",
+      "acceptanceText": "Acepto las bases y condiciones.",
+      "send": "ENVIAR",
+      "firstNameInvalidity": "Nombre debe tener un mínimo de 2 caracteres.",
+      "lastNameInvalidity": "Apellido debe tener un mínimo de 2 caracteres.",
+      "emailInvalidity": "El e-Mail no es válido.",
+      "departmentInvalidity": "Seleccione un Departamento.",
+      "localityInvalidity": "Seleccione una Localidad.",
+      "ciInvalidity": "C.I inválido.",
+      "acceptanteInvalidity": "Acepte las bases y condiciones."
+    }
+  }
+}
